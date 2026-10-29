@@ -9,6 +9,7 @@ public class FormatDates {
 
             LocalDateTime today = LocalDateTime.now();
 
+
             DateTimeFormatter fmt = DateTimeFormatter.ofPattern("MM/dd/yyyy");
             DateTimeFormatter fmt2 = DateTimeFormatter.ofPattern("yyyy-MM-dd");
             String formattedDate = today.format(fmt);
